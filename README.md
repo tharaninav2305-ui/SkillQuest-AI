@@ -1,7 +1,8 @@
 # SkillQuest AI
 
 A gamified placement-prep platform that turns studying into an adventure. Take timed quizzes across eight core subjects, earn XP, unlock badges, keep streaks, and climb the leaderboard — all wrapped in a polished, animated glassmorphism UI.
-
+## Live demo
+https://prep-pilot-ai-seven.vercel.app
 ## Features
 
 - **8 subjects, 80 questions** — Java, SQL, HTML, CSS, JavaScript, DBMS, Networking, and Aptitude (10 questions each, four options, with explanations).
