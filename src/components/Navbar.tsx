@@ -25,12 +25,16 @@ export default function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50">
       <div className="glass mx-3 mt-3 rounded-2xl px-4 sm:px-6 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400 via-blue-600 to-purple-600 grid place-items-center text-lg shadow-lg group-hover:scale-110 transition-transform">
-            <i className="fa-solid fa-rocket text-white" />
-          </span>
-          <span className="font-display font-bold text-lg tracking-tight">
-            Skill<span className="text-gradient">Quest</span> AI
-          </span>
+          <img
+              src="/logo.png"
+              alt="SkillQuest AI"
+              className="w-10 h-10 rounded-xl shadow-lg object-cover group-hover:scale-110 transition-transform"
+          />
+          <span className="font-display font-bold text-xl tracking-tight">
+  <span className="text-white">Skill</span>
+  <span className="text-gradient">Quest</span>
+  <span className="text-cyan-400"> AI</span>
+</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-1">

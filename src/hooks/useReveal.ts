@@ -10,6 +10,7 @@ export function useReveal<T extends HTMLElement = HTMLDivElement>(options?: Inte
 
   // Stable reference so the effect doesn't re-run on every render.
   const optsKey = JSON.stringify(options);
+  // eslint-disable-next-line react-hooks/exhaustive-deps -- intentionally keyed off optsKey (stable string), not the options object reference
   const opts = useMemo(() => options, [optsKey]);
 
   useEffect(() => {
